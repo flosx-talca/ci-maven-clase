@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.devopsgang.AppTest" time="0" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="com.devopsgang.OrderServiceTest" time="0.077" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -58,5 +58,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="com.devopsgang.AppTest" name="com.devopsgang.AppTest.testApp" time="0"/>
+  <testcase classname="com.devopsgang.OrderServiceTest" name="com.devopsgang.OrderServiceTest.testWithoutDiscountAndStandardShipment" time="0.042"/>
+  <testcase classname="com.devopsgang.OrderServiceTest" name="com.devopsgang.OrderServiceTest.testWithDiscountAndStandardShipment" time="0.001"/>
+  <testcase classname="com.devopsgang.OrderServiceTest" name="com.devopsgang.OrderServiceTest.testWithoutDiscountAndExpressShipment" time="0"/>
+  <testcase classname="com.devopsgang.OrderServiceTest" name="com.devopsgang.OrderServiceTest.testWithDiscountAndExpressShipment" time="0"/>
+  <testcase classname="com.devopsgang.OrderServiceTest" name="com.devopsgang.OrderServiceTest.testNegativeSubtotal" time="0.034"/>
+  <testcase classname="com.devopsgang.OrderServiceTest" name="com.devopsgang.OrderServiceTest.testZeroSubtotal" time="0"/>
 </testsuite>
